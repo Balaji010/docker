@@ -31,5 +31,9 @@ Branching & Merging:
 4) Merge new branch in master branch - $git merge <branchname> (ex: git merge mynew_branch)
 5) now push git push -u origin master
 
+For deleting a branch:
+1) To locally delete branch - $git branch -d "branch name"
+2) To delete in remote user - $git push origin --delete branch name
+
 Notes:
 $ - represents the command--
