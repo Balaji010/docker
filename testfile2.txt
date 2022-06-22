@@ -22,6 +22,14 @@ Steps to commit:
 Branching & Merging:
 1) Create Branch - $git branch branch_name
 2) Checkout Branch - $git checkout branch_name
+3) Create one more file and try to add & commit.
+	Create a new file name "testfile2.txt"
+	$git add .
+	$git commit -m "added testfile2"
+3) To push to the new branch - $git push --set-upstream origin mynew_branch
+4) Checkout the master first - $git checkout master
+4) Merge new branch in master branch - $git merge <branchname> (ex: git merge mynew_branch)
+5) now push git push -u origin master
 
 Notes:
 $ - represents the command--
