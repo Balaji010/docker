@@ -1,0 +1,27 @@
+configure the user in git:
+$ git config --global user.email <email@domain.com>
+$ git config --global user.name <username_git>
+
+Steps to commit:
+1) first create a folder:
+2) $git init #This will initalize the git repo by simply creating .git folder
+3) $git status #Checking the status of git
+4) Create a new file in the folder with some text.
+5) Now add the created file using - $git add mytextfile.txt
+6) Now commit in git - $git commit -m "status update"
+7) Again check the status - $git status
+8) Add one more file  - index.html
+9) Now add file one more time - $git add index.html
+10) Now check the status again.
+11) Now commit the file with comment.
+12) Now create a remote repo on github.
+13) Now add that repo on cient machine - $git remote add origin https://github.com/Balaji010/docker.git
+14) Now push the changes - $git push -u origin master
+15) To check the log use - $git log
+
+Branching & Merging:
+1) Create Branch - $git branch branch_name
+2) Checkout Branch - $git checkout branch_name
+
+Notes:
+$ - represents the command--
